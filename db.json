@@ -1,0 +1,86 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server 1",
+      "author": "typicode 1",
+      "content": "blog post 1 Content blabla"
+    },
+    {
+      "id": 2,
+      "title": "json-server 2",
+      "author": "typicode 2",
+      "content": "blog post 1 Content blub"
+    },
+    {
+      "id": 3,
+      "title": "json-server 3",
+      "author": "typicode 3",
+      "content": "blog post 3 Content blablub"
+    },
+    {
+      "id": 4,
+      "title": "json-server 4",
+      "author": "typicode 4",
+      "content": "blog post 4 Content blablub"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment 1",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment 2",
+      "postId": 2
+    },
+    {
+      "id": 3,
+      "body": "some comment 3",
+      "postId": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "pages": [
+    {
+      "id": 0,
+      "name": "Homepage",
+      "content": "Homepage content",
+      "url": "/"
+    },
+    {
+      "id": 1,
+      "name": "About",
+      "content": "About content",
+      "url": "/about"
+    },
+    {
+      "id": 2,
+      "name": "Resume",
+      "content": "Resume content",
+      "url": "/resume"
+    },
+    {
+      "id": 3,
+      "name": "Skills",
+      "content": "Skills content",
+      "url": "/skills"
+    },
+    {
+      "id": 4,
+      "name": "Contact",
+      "content": "Contact content",
+      "url": "/contact"
+    },
+    {
+      "id": 5,
+      "name": "Posts",
+      "content": "Posts content",
+      "url": "/posts"
+    }
+  ]
+}
